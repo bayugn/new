@@ -27,7 +27,7 @@ clear
 echo ""
 echo " Done Install Webmin"
 echo " $IP:10000"
-echo " AutoScriptVPS By  Server"
+echo " AutoScriptVPS By  Ryan"
 }
 function restart () {
 echo " Restarting Webmin"
@@ -37,7 +37,7 @@ echo " Start Uninstall Webmin"
 clear
 echo ""
 echo " Done Restart Webmin"
-echo " AutoScriptVPS By Endka"
+echo " AutoScriptVPS By Ryan"
 }
 function uninstall () {
 echo " Removing Repositori Webmin"
@@ -50,7 +50,7 @@ apt autoremove --purge webmin -y > /dev/null 2>&1
 clear
 echo ""
 echo " Done Uninstall Webmin"
-echo " AutoScriptVPS By  Server"
+echo " AutoScriptVPS By  Ryan"
 }
 if [[ "$cek" = "perl" ]]; then
 sts="${Info}"
