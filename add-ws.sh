@@ -51,7 +51,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "bimbel.ruangguru.com",
+      "add": "domain",
       "port": "${none}",
       "id": "${uuid}",
       "aid": "2",
