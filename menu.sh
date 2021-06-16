@@ -2,7 +2,7 @@
 
 clear
 
-figlet Server Project | lolcat
+figlet Ryan Server | lolcat
 
 if [[ -e /etc/debian_version ]]; then
 	OS=debian
